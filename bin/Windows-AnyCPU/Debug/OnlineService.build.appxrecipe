@@ -1,0 +1,1762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VIKI_UG1_2012</Machine>
+    <WindowsUser>Vignesh</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>46a32a00-8a16-11e5-b7ab-bdf5b4a1587f</PackageIdentityName>
+    <IntermediateOutputPath>c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\build\windows\debug\anycpu\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icon\demo\location.png">
+      <PackagePath>www\bower_components\iron-icon\demo\location.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\font-roboto\bower.json">
+      <PackagePath>www\bower_components\font-roboto\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-announcer\bower.json">
+      <PackagePath>www\bower_components\iron-a11y-announcer\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-keys-behavior\bower.json">
+      <PackagePath>www\bower_components\iron-a11y-keys-behavior\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-autogrow-textarea\bower.json">
+      <PackagePath>www\bower_components\iron-autogrow-textarea\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\bower.json">
+      <PackagePath>www\bower_components\iron-behaviors\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-checked-element-behavior\bower.json">
+      <PackagePath>www\bower_components\iron-checked-element-behavior\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-collapse\bower.json">
+      <PackagePath>www\bower_components\iron-collapse\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-dropdown\bower.json">
+      <PackagePath>www\bower_components\iron-dropdown\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-fit-behavior\bower.json">
+      <PackagePath>www\bower_components\iron-fit-behavior\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-flex-layout\bower.json">
+      <PackagePath>www\bower_components\iron-flex-layout\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-form-element-behavior\bower.json">
+      <PackagePath>www\bower_components\iron-form-element-behavior\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-iconset-svg\bower.json">
+      <PackagePath>www\bower_components\iron-iconset-svg\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\bower.json">
+      <PackagePath>www\bower_components\iron-icons\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icon\bower.json">
+      <PackagePath>www\bower_components\iron-icon\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-input\bower.json">
+      <PackagePath>www\bower_components\iron-input\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-media-query\bower.json">
+      <PackagePath>www\bower_components\iron-media-query\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\bower.json">
+      <PackagePath>www\bower_components\iron-menu-behavior\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-meta\bower.json">
+      <PackagePath>www\bower_components\iron-meta\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-overlay-behavior\bower.json">
+      <PackagePath>www\bower_components\iron-overlay-behavior\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-pages\bower.json">
+      <PackagePath>www\bower_components\iron-pages\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-resizable-behavior\bower.json">
+      <PackagePath>www\bower_components\iron-resizable-behavior\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\bower.json">
+      <PackagePath>www\bower_components\iron-selector\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-validatable-behavior\bower.json">
+      <PackagePath>www\bower_components\iron-validatable-behavior\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\bower.json">
+      <PackagePath>www\bower_components\neon-animation\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-badge\bower.json">
+      <PackagePath>www\bower_components\paper-badge\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\bower.json">
+      <PackagePath>www\bower_components\paper-behaviors\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-button\bower.json">
+      <PackagePath>www\bower_components\paper-button\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-card\bower.json">
+      <PackagePath>www\bower_components\paper-card\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-checkbox\bower.json">
+      <PackagePath>www\bower_components\paper-checkbox\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog-behavior\bower.json">
+      <PackagePath>www\bower_components\paper-dialog-behavior\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog\bower.json">
+      <PackagePath>www\bower_components\paper-dialog\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-drawer-panel\bower.json">
+      <PackagePath>www\bower_components\paper-drawer-panel\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dropdown-menu\bower.json">
+      <PackagePath>www\bower_components\paper-dropdown-menu\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-fab\bower.json">
+      <PackagePath>www\bower_components\paper-fab\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-header-panel\bower.json">
+      <PackagePath>www\bower_components\paper-header-panel\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-icon-button\bower.json">
+      <PackagePath>www\bower_components\paper-icon-button\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\bower.json">
+      <PackagePath>www\bower_components\paper-input\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-item\bower.json">
+      <PackagePath>www\bower_components\paper-item\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-material\bower.json">
+      <PackagePath>www\bower_components\paper-material\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu-button\bower.json">
+      <PackagePath>www\bower_components\paper-menu-button\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu\bower.json">
+      <PackagePath>www\bower_components\paper-menu\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-ripple\bower.json">
+      <PackagePath>www\bower_components\paper-ripple\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-spinner\bower.json">
+      <PackagePath>www\bower_components\paper-spinner\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\bower.json">
+      <PackagePath>www\bower_components\paper-styles\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\bower.json">
+      <PackagePath>www\bower_components\paper-tabs\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toast\bower.json">
+      <PackagePath>www\bower_components\paper-toast\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toolbar\bower.json">
+      <PackagePath>www\bower_components\paper-toolbar\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\polymer\bower.json">
+      <PackagePath>www\bower_components\polymer\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\web-animations-js\bower.json">
+      <PackagePath>www\bower_components\web-animations-js\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\bower.json">
+      <PackagePath>www\bower_components\webcomponentsjs\bower.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\package.json">
+      <PackagePath>www\bower_components\webcomponentsjs\package.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\font-roboto\README.md">
+      <PackagePath>www\bower_components\font-roboto\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-announcer\README.md">
+      <PackagePath>www\bower_components\iron-a11y-announcer\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-keys-behavior\README.md">
+      <PackagePath>www\bower_components\iron-a11y-keys-behavior\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-autogrow-textarea\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\iron-autogrow-textarea\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-autogrow-textarea\README.md">
+      <PackagePath>www\bower_components\iron-autogrow-textarea\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\iron-behaviors\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\README.md">
+      <PackagePath>www\bower_components\iron-behaviors\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-checked-element-behavior\README.md">
+      <PackagePath>www\bower_components\iron-checked-element-behavior\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-collapse\README.md">
+      <PackagePath>www\bower_components\iron-collapse\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-dropdown\README.md">
+      <PackagePath>www\bower_components\iron-dropdown\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-fit-behavior\README.md">
+      <PackagePath>www\bower_components\iron-fit-behavior\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-flex-layout\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\iron-flex-layout\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-flex-layout\README.md">
+      <PackagePath>www\bower_components\iron-flex-layout\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-form-element-behavior\README.md">
+      <PackagePath>www\bower_components\iron-form-element-behavior\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-iconset-svg\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\iron-iconset-svg\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-iconset-svg\README.md">
+      <PackagePath>www\bower_components\iron-iconset-svg\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\README.md">
+      <PackagePath>www\bower_components\iron-icons\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icon\README.md">
+      <PackagePath>www\bower_components\iron-icon\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-input\README.md">
+      <PackagePath>www\bower_components\iron-input\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-media-query\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\iron-media-query\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-media-query\README.md">
+      <PackagePath>www\bower_components\iron-media-query\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\README.md">
+      <PackagePath>www\bower_components\iron-menu-behavior\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-meta\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\iron-meta\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-meta\README.md">
+      <PackagePath>www\bower_components\iron-meta\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-overlay-behavior\README.md">
+      <PackagePath>www\bower_components\iron-overlay-behavior\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-pages\README.md">
+      <PackagePath>www\bower_components\iron-pages\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-resizable-behavior\README.md">
+      <PackagePath>www\bower_components\iron-resizable-behavior\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\README.md">
+      <PackagePath>www\bower_components\iron-selector\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-validatable-behavior\README.md">
+      <PackagePath>www\bower_components\iron-validatable-behavior\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\neon-animation\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\guides\neon-animation.md">
+      <PackagePath>www\bower_components\neon-animation\guides\neon-animation.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\README.md">
+      <PackagePath>www\bower_components\neon-animation\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-badge\README.md">
+      <PackagePath>www\bower_components\paper-badge\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\README.md">
+      <PackagePath>www\bower_components\paper-behaviors\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-button\README.md">
+      <PackagePath>www\bower_components\paper-button\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-card\README.md">
+      <PackagePath>www\bower_components\paper-card\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-checkbox\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\paper-checkbox\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-checkbox\README.md">
+      <PackagePath>www\bower_components\paper-checkbox\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog-behavior\README.md">
+      <PackagePath>www\bower_components\paper-dialog-behavior\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog\README.md">
+      <PackagePath>www\bower_components\paper-dialog\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-drawer-panel\README.md">
+      <PackagePath>www\bower_components\paper-drawer-panel\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dropdown-menu\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\paper-dropdown-menu\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dropdown-menu\README.md">
+      <PackagePath>www\bower_components\paper-dropdown-menu\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-fab\README.md">
+      <PackagePath>www\bower_components\paper-fab\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-header-panel\README.md">
+      <PackagePath>www\bower_components\paper-header-panel\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-icon-button\README.md">
+      <PackagePath>www\bower_components\paper-icon-button\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\README.md">
+      <PackagePath>www\bower_components\paper-input\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-item\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\paper-item\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-item\README.md">
+      <PackagePath>www\bower_components\paper-item\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-material\README.md">
+      <PackagePath>www\bower_components\paper-material\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu-button\README.md">
+      <PackagePath>www\bower_components\paper-menu-button\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu\README.md">
+      <PackagePath>www\bower_components\paper-menu\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-ripple\README.md">
+      <PackagePath>www\bower_components\paper-ripple\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-spinner\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\paper-spinner\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-spinner\README.md">
+      <PackagePath>www\bower_components\paper-spinner\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\README.md">
+      <PackagePath>www\bower_components\paper-styles\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\CONTRIBUTING.md">
+      <PackagePath>www\bower_components\paper-tabs\CONTRIBUTING.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\README.md">
+      <PackagePath>www\bower_components\paper-tabs\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toast\README.md">
+      <PackagePath>www\bower_components\paper-toast\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toolbar\README.md">
+      <PackagePath>www\bower_components\paper-toolbar\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\web-animations-js\History.md">
+      <PackagePath>www\bower_components\web-animations-js\History.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\web-animations-js\README.md">
+      <PackagePath>www\bower_components\web-animations-js\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\README.md">
+      <PackagePath>www\bower_components\webcomponentsjs\README.md</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\font-roboto\roboto.html">
+      <PackagePath>www\bower_components\font-roboto\roboto.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-announcer\demo\index.html">
+      <PackagePath>www\bower_components\iron-a11y-announcer\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-announcer\demo\x-announces.html">
+      <PackagePath>www\bower_components\iron-a11y-announcer\demo\x-announces.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-announcer\index.html">
+      <PackagePath>www\bower_components\iron-a11y-announcer\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-announcer\iron-a11y-announcer.html">
+      <PackagePath>www\bower_components\iron-a11y-announcer\iron-a11y-announcer.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-announcer\test\index.html">
+      <PackagePath>www\bower_components\iron-a11y-announcer\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-announcer\test\iron-a11y-announcer.html">
+      <PackagePath>www\bower_components\iron-a11y-announcer\test\iron-a11y-announcer.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-keys-behavior\demo\index.html">
+      <PackagePath>www\bower_components\iron-a11y-keys-behavior\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-keys-behavior\demo\x-key-aware.html">
+      <PackagePath>www\bower_components\iron-a11y-keys-behavior\demo\x-key-aware.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-keys-behavior\index.html">
+      <PackagePath>www\bower_components\iron-a11y-keys-behavior\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-keys-behavior\iron-a11y-keys-behavior.html">
+      <PackagePath>www\bower_components\iron-a11y-keys-behavior\iron-a11y-keys-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-keys-behavior\test\basic-test.html">
+      <PackagePath>www\bower_components\iron-a11y-keys-behavior\test\basic-test.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-a11y-keys-behavior\test\index.html">
+      <PackagePath>www\bower_components\iron-a11y-keys-behavior\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-autogrow-textarea\demo\index.html">
+      <PackagePath>www\bower_components\iron-autogrow-textarea\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-autogrow-textarea\index.html">
+      <PackagePath>www\bower_components\iron-autogrow-textarea\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-autogrow-textarea\iron-autogrow-textarea.html">
+      <PackagePath>www\bower_components\iron-autogrow-textarea\iron-autogrow-textarea.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-autogrow-textarea\test\basic.html">
+      <PackagePath>www\bower_components\iron-autogrow-textarea\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-autogrow-textarea\test\index.html">
+      <PackagePath>www\bower_components\iron-autogrow-textarea\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\demo\index.html">
+      <PackagePath>www\bower_components\iron-behaviors\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\demo\simple-button.html">
+      <PackagePath>www\bower_components\iron-behaviors\demo\simple-button.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\index.html">
+      <PackagePath>www\bower_components\iron-behaviors\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\iron-button-state.html">
+      <PackagePath>www\bower_components\iron-behaviors\iron-button-state.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\iron-control-state.html">
+      <PackagePath>www\bower_components\iron-behaviors\iron-control-state.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\test\active-state.html">
+      <PackagePath>www\bower_components\iron-behaviors\test\active-state.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\test\disabled-state.html">
+      <PackagePath>www\bower_components\iron-behaviors\test\disabled-state.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\test\focused-state.html">
+      <PackagePath>www\bower_components\iron-behaviors\test\focused-state.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\test\index.html">
+      <PackagePath>www\bower_components\iron-behaviors\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-behaviors\test\test-elements.html">
+      <PackagePath>www\bower_components\iron-behaviors\test\test-elements.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-checked-element-behavior\demo\index.html">
+      <PackagePath>www\bower_components\iron-checked-element-behavior\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-checked-element-behavior\demo\simple-checkbox.html">
+      <PackagePath>www\bower_components\iron-checked-element-behavior\demo\simple-checkbox.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-checked-element-behavior\index.html">
+      <PackagePath>www\bower_components\iron-checked-element-behavior\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-checked-element-behavior\iron-checked-element-behavior.html">
+      <PackagePath>www\bower_components\iron-checked-element-behavior\iron-checked-element-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-checked-element-behavior\test\basic.html">
+      <PackagePath>www\bower_components\iron-checked-element-behavior\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-checked-element-behavior\test\index.html">
+      <PackagePath>www\bower_components\iron-checked-element-behavior\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-checked-element-behavior\test\simple-checkbox.html">
+      <PackagePath>www\bower_components\iron-checked-element-behavior\test\simple-checkbox.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-collapse\demo\index.html">
+      <PackagePath>www\bower_components\iron-collapse\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-collapse\index.html">
+      <PackagePath>www\bower_components\iron-collapse\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-collapse\iron-collapse.html">
+      <PackagePath>www\bower_components\iron-collapse\iron-collapse.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-collapse\test\a11y.html">
+      <PackagePath>www\bower_components\iron-collapse\test\a11y.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-collapse\test\basic.html">
+      <PackagePath>www\bower_components\iron-collapse\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-collapse\test\horizontal.html">
+      <PackagePath>www\bower_components\iron-collapse\test\horizontal.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-collapse\test\index.html">
+      <PackagePath>www\bower_components\iron-collapse\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-dropdown\demo\grow-height-animation.html">
+      <PackagePath>www\bower_components\iron-dropdown\demo\grow-height-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-dropdown\demo\index.html">
+      <PackagePath>www\bower_components\iron-dropdown\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-dropdown\demo\x-select.html">
+      <PackagePath>www\bower_components\iron-dropdown\demo\x-select.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-dropdown\index.html">
+      <PackagePath>www\bower_components\iron-dropdown\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-dropdown\iron-dropdown-scroll-manager.html">
+      <PackagePath>www\bower_components\iron-dropdown\iron-dropdown-scroll-manager.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-dropdown\iron-dropdown.html">
+      <PackagePath>www\bower_components\iron-dropdown\iron-dropdown.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-dropdown\test\index.html">
+      <PackagePath>www\bower_components\iron-dropdown\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-dropdown\test\iron-dropdown-scroll-manager.html">
+      <PackagePath>www\bower_components\iron-dropdown\test\iron-dropdown-scroll-manager.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-dropdown\test\iron-dropdown.html">
+      <PackagePath>www\bower_components\iron-dropdown\test\iron-dropdown.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-fit-behavior\demo\index.html">
+      <PackagePath>www\bower_components\iron-fit-behavior\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-fit-behavior\demo\simple-fit.html">
+      <PackagePath>www\bower_components\iron-fit-behavior\demo\simple-fit.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-fit-behavior\index.html">
+      <PackagePath>www\bower_components\iron-fit-behavior\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-fit-behavior\iron-fit-behavior.html">
+      <PackagePath>www\bower_components\iron-fit-behavior\iron-fit-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-fit-behavior\test\index.html">
+      <PackagePath>www\bower_components\iron-fit-behavior\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-fit-behavior\test\iron-fit-behavior.html">
+      <PackagePath>www\bower_components\iron-fit-behavior\test\iron-fit-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-fit-behavior\test\test-fit.html">
+      <PackagePath>www\bower_components\iron-fit-behavior\test\test-fit.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-flex-layout\classes\iron-flex-layout.html">
+      <PackagePath>www\bower_components\iron-flex-layout\classes\iron-flex-layout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-flex-layout\classes\iron-shadow-flex-layout.html">
+      <PackagePath>www\bower_components\iron-flex-layout\classes\iron-shadow-flex-layout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-flex-layout\demo\demo-snippet.html">
+      <PackagePath>www\bower_components\iron-flex-layout\demo\demo-snippet.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-flex-layout\demo\index.html">
+      <PackagePath>www\bower_components\iron-flex-layout\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-flex-layout\index.html">
+      <PackagePath>www\bower_components\iron-flex-layout\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-flex-layout\iron-flex-layout.html">
+      <PackagePath>www\bower_components\iron-flex-layout\iron-flex-layout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-form-element-behavior\demo\index.html">
+      <PackagePath>www\bower_components\iron-form-element-behavior\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-form-element-behavior\demo\simple-element.html">
+      <PackagePath>www\bower_components\iron-form-element-behavior\demo\simple-element.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-form-element-behavior\demo\simple-form.html">
+      <PackagePath>www\bower_components\iron-form-element-behavior\demo\simple-form.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-form-element-behavior\index.html">
+      <PackagePath>www\bower_components\iron-form-element-behavior\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-form-element-behavior\iron-form-element-behavior.html">
+      <PackagePath>www\bower_components\iron-form-element-behavior\iron-form-element-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-iconset-svg\demo\index.html">
+      <PackagePath>www\bower_components\iron-iconset-svg\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-iconset-svg\demo\svg-sample-icons.html">
+      <PackagePath>www\bower_components\iron-iconset-svg\demo\svg-sample-icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-iconset-svg\index.html">
+      <PackagePath>www\bower_components\iron-iconset-svg\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-iconset-svg\iron-iconset-svg.html">
+      <PackagePath>www\bower_components\iron-iconset-svg\iron-iconset-svg.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-iconset-svg\test\index.html">
+      <PackagePath>www\bower_components\iron-iconset-svg\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-iconset-svg\test\iron-iconset-svg.html">
+      <PackagePath>www\bower_components\iron-iconset-svg\test\iron-iconset-svg.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\av-icons.html">
+      <PackagePath>www\bower_components\iron-icons\av-icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\communication-icons.html">
+      <PackagePath>www\bower_components\iron-icons\communication-icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\demo\index.html">
+      <PackagePath>www\bower_components\iron-icons\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\device-icons.html">
+      <PackagePath>www\bower_components\iron-icons\device-icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\editor-icons.html">
+      <PackagePath>www\bower_components\iron-icons\editor-icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\hardware-icons.html">
+      <PackagePath>www\bower_components\iron-icons\hardware-icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\image-icons.html">
+      <PackagePath>www\bower_components\iron-icons\image-icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\index.html">
+      <PackagePath>www\bower_components\iron-icons\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\iron-icons.html">
+      <PackagePath>www\bower_components\iron-icons\iron-icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\maps-icons.html">
+      <PackagePath>www\bower_components\iron-icons\maps-icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\notification-icons.html">
+      <PackagePath>www\bower_components\iron-icons\notification-icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\social-icons.html">
+      <PackagePath>www\bower_components\iron-icons\social-icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icon\demo\async.html">
+      <PackagePath>www\bower_components\iron-icon\demo\async.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icon\demo\index.html">
+      <PackagePath>www\bower_components\iron-icon\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icon\index.html">
+      <PackagePath>www\bower_components\iron-icon\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icon\iron-icon.html">
+      <PackagePath>www\bower_components\iron-icon\iron-icon.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icon\test\index.html">
+      <PackagePath>www\bower_components\iron-icon\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icon\test\iron-icon.html">
+      <PackagePath>www\bower_components\iron-icon\test\iron-icon.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-input\demo\index.html">
+      <PackagePath>www\bower_components\iron-input\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-input\index.html">
+      <PackagePath>www\bower_components\iron-input\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-input\iron-input.html">
+      <PackagePath>www\bower_components\iron-input\iron-input.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-input\test\index.html">
+      <PackagePath>www\bower_components\iron-input\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-input\test\iron-input.html">
+      <PackagePath>www\bower_components\iron-input\test\iron-input.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-input\test\letters-only.html">
+      <PackagePath>www\bower_components\iron-input\test\letters-only.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-media-query\demo\index.html">
+      <PackagePath>www\bower_components\iron-media-query\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-media-query\index.html">
+      <PackagePath>www\bower_components\iron-media-query\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-media-query\iron-media-query.html">
+      <PackagePath>www\bower_components\iron-media-query\iron-media-query.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-media-query\test\basic.html">
+      <PackagePath>www\bower_components\iron-media-query\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-media-query\test\index.html">
+      <PackagePath>www\bower_components\iron-media-query\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\demo\index.html">
+      <PackagePath>www\bower_components\iron-menu-behavior\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\demo\simple-menu.html">
+      <PackagePath>www\bower_components\iron-menu-behavior\demo\simple-menu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\demo\simple-menubar.html">
+      <PackagePath>www\bower_components\iron-menu-behavior\demo\simple-menubar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\index.html">
+      <PackagePath>www\bower_components\iron-menu-behavior\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\iron-menu-behavior.html">
+      <PackagePath>www\bower_components\iron-menu-behavior\iron-menu-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\iron-menubar-behavior.html">
+      <PackagePath>www\bower_components\iron-menu-behavior\iron-menubar-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\test\index.html">
+      <PackagePath>www\bower_components\iron-menu-behavior\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\test\iron-menu-behavior.html">
+      <PackagePath>www\bower_components\iron-menu-behavior\test\iron-menu-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\test\iron-menubar-behavior.html">
+      <PackagePath>www\bower_components\iron-menu-behavior\test\iron-menubar-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\test\test-menu.html">
+      <PackagePath>www\bower_components\iron-menu-behavior\test\test-menu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-menu-behavior\test\test-menubar.html">
+      <PackagePath>www\bower_components\iron-menu-behavior\test\test-menubar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-meta\demo\index.html">
+      <PackagePath>www\bower_components\iron-meta\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-meta\index.html">
+      <PackagePath>www\bower_components\iron-meta\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-meta\iron-meta.html">
+      <PackagePath>www\bower_components\iron-meta\iron-meta.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-meta\test\basic.html">
+      <PackagePath>www\bower_components\iron-meta\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-meta\test\index.html">
+      <PackagePath>www\bower_components\iron-meta\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-meta\test\iron-meta.html">
+      <PackagePath>www\bower_components\iron-meta\test\iron-meta.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-overlay-behavior\demo\index.html">
+      <PackagePath>www\bower_components\iron-overlay-behavior\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-overlay-behavior\demo\simple-overlay.html">
+      <PackagePath>www\bower_components\iron-overlay-behavior\demo\simple-overlay.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-overlay-behavior\index.html">
+      <PackagePath>www\bower_components\iron-overlay-behavior\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-overlay-behavior\iron-overlay-backdrop.html">
+      <PackagePath>www\bower_components\iron-overlay-behavior\iron-overlay-backdrop.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-overlay-behavior\iron-overlay-behavior.html">
+      <PackagePath>www\bower_components\iron-overlay-behavior\iron-overlay-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-overlay-behavior\iron-overlay-manager.html">
+      <PackagePath>www\bower_components\iron-overlay-behavior\iron-overlay-manager.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-overlay-behavior\test\index.html">
+      <PackagePath>www\bower_components\iron-overlay-behavior\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-overlay-behavior\test\iron-overlay-behavior.html">
+      <PackagePath>www\bower_components\iron-overlay-behavior\test\iron-overlay-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-overlay-behavior\test\test-overlay.html">
+      <PackagePath>www\bower_components\iron-overlay-behavior\test\test-overlay.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-pages\demo\index.html">
+      <PackagePath>www\bower_components\iron-pages\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-pages\index.html">
+      <PackagePath>www\bower_components\iron-pages\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-pages\iron-pages.html">
+      <PackagePath>www\bower_components\iron-pages\iron-pages.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-pages\test\attr-for-selected.html">
+      <PackagePath>www\bower_components\iron-pages\test\attr-for-selected.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-pages\test\basic.html">
+      <PackagePath>www\bower_components\iron-pages\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-pages\test\index.html">
+      <PackagePath>www\bower_components\iron-pages\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-resizable-behavior\demo\index.html">
+      <PackagePath>www\bower_components\iron-resizable-behavior\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-resizable-behavior\demo\src\x-app.html">
+      <PackagePath>www\bower_components\iron-resizable-behavior\demo\src\x-app.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-resizable-behavior\index.html">
+      <PackagePath>www\bower_components\iron-resizable-behavior\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-resizable-behavior\iron-resizable-behavior.html">
+      <PackagePath>www\bower_components\iron-resizable-behavior\iron-resizable-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-resizable-behavior\test\basic.html">
+      <PackagePath>www\bower_components\iron-resizable-behavior\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-resizable-behavior\test\index.html">
+      <PackagePath>www\bower_components\iron-resizable-behavior\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-resizable-behavior\test\iron-resizable-behavior.html">
+      <PackagePath>www\bower_components\iron-resizable-behavior\test\iron-resizable-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-resizable-behavior\test\test-elements.html">
+      <PackagePath>www\bower_components\iron-resizable-behavior\test\test-elements.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\demo\index.html">
+      <PackagePath>www\bower_components\iron-selector\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\index.html">
+      <PackagePath>www\bower_components\iron-selector\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\iron-multi-selectable.html">
+      <PackagePath>www\bower_components\iron-selector\iron-multi-selectable.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\iron-selectable.html">
+      <PackagePath>www\bower_components\iron-selector\iron-selectable.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\iron-selection.html">
+      <PackagePath>www\bower_components\iron-selector\iron-selection.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\iron-selector.html">
+      <PackagePath>www\bower_components\iron-selector\iron-selector.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\test\activate-event.html">
+      <PackagePath>www\bower_components\iron-selector\test\activate-event.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\test\basic.html">
+      <PackagePath>www\bower_components\iron-selector\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\test\content-element.html">
+      <PackagePath>www\bower_components\iron-selector\test\content-element.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\test\content.html">
+      <PackagePath>www\bower_components\iron-selector\test\content.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\test\excluded-local-names.html">
+      <PackagePath>www\bower_components\iron-selector\test\excluded-local-names.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\test\index.html">
+      <PackagePath>www\bower_components\iron-selector\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\test\multi.html">
+      <PackagePath>www\bower_components\iron-selector\test\multi.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\test\next-previous.html">
+      <PackagePath>www\bower_components\iron-selector\test\next-previous.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\test\selected-attribute.html">
+      <PackagePath>www\bower_components\iron-selector\test\selected-attribute.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-selector\test\template-repeat.html">
+      <PackagePath>www\bower_components\iron-selector\test\template-repeat.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-validatable-behavior\demo\cats-only.html">
+      <PackagePath>www\bower_components\iron-validatable-behavior\demo\cats-only.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-validatable-behavior\demo\index.html">
+      <PackagePath>www\bower_components\iron-validatable-behavior\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-validatable-behavior\demo\validatable-input.html">
+      <PackagePath>www\bower_components\iron-validatable-behavior\demo\validatable-input.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-validatable-behavior\index.html">
+      <PackagePath>www\bower_components\iron-validatable-behavior\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-validatable-behavior\iron-validatable-behavior.html">
+      <PackagePath>www\bower_components\iron-validatable-behavior\iron-validatable-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-validatable-behavior\test\index.html">
+      <PackagePath>www\bower_components\iron-validatable-behavior\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-validatable-behavior\test\iron-validatable-behavior.html">
+      <PackagePath>www\bower_components\iron-validatable-behavior\test\iron-validatable-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-validatable-behavior\test\test-validatable.html">
+      <PackagePath>www\bower_components\iron-validatable-behavior\test\test-validatable.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\cascaded-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\cascaded-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\fade-in-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\fade-in-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\fade-out-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\fade-out-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\hero-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\hero-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\opaque-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\opaque-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\reverse-ripple-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\reverse-ripple-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\ripple-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\ripple-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\scale-down-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\scale-down-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\scale-up-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\scale-up-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\slide-down-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\slide-down-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\slide-from-left-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\slide-from-left-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\slide-from-right-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\slide-from-right-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\slide-left-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\slide-left-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\slide-right-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\slide-right-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\slide-up-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\slide-up-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\animations\transform-animation.html">
+      <PackagePath>www\bower_components\neon-animation\animations\transform-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\card\index.html">
+      <PackagePath>www\bower_components\neon-animation\demo\card\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\card\x-card.html">
+      <PackagePath>www\bower_components\neon-animation\demo\card\x-card.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\card\x-cards-list.html">
+      <PackagePath>www\bower_components\neon-animation\demo\card\x-cards-list.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\declarative\index.html">
+      <PackagePath>www\bower_components\neon-animation\demo\declarative\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\doc\basic.html">
+      <PackagePath>www\bower_components\neon-animation\demo\doc\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\doc\my-animatable.html">
+      <PackagePath>www\bower_components\neon-animation\demo\doc\my-animatable.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\doc\my-dialog.html">
+      <PackagePath>www\bower_components\neon-animation\demo\doc\my-dialog.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\doc\types.html">
+      <PackagePath>www\bower_components\neon-animation\demo\doc\types.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\dropdown\animated-dropdown.html">
+      <PackagePath>www\bower_components\neon-animation\demo\dropdown\animated-dropdown.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\dropdown\index.html">
+      <PackagePath>www\bower_components\neon-animation\demo\dropdown\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\grid\animated-grid.html">
+      <PackagePath>www\bower_components\neon-animation\demo\grid\animated-grid.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\grid\fullsize-page-with-card.html">
+      <PackagePath>www\bower_components\neon-animation\demo\grid\fullsize-page-with-card.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\grid\index.html">
+      <PackagePath>www\bower_components\neon-animation\demo\grid\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\index.html">
+      <PackagePath>www\bower_components\neon-animation\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\list\full-view.html">
+      <PackagePath>www\bower_components\neon-animation\demo\list\full-view.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\list\index.html">
+      <PackagePath>www\bower_components\neon-animation\demo\list\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\list\list-demo.html">
+      <PackagePath>www\bower_components\neon-animation\demo\list\list-demo.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\list\list-view.html">
+      <PackagePath>www\bower_components\neon-animation\demo\list\list-view.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\load\animated-grid.html">
+      <PackagePath>www\bower_components\neon-animation\demo\load\animated-grid.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\load\full-page.html">
+      <PackagePath>www\bower_components\neon-animation\demo\load\full-page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\load\index.html">
+      <PackagePath>www\bower_components\neon-animation\demo\load\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\reprojection\animated-grid.html">
+      <PackagePath>www\bower_components\neon-animation\demo\reprojection\animated-grid.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\reprojection\fullsize-page-with-card.html">
+      <PackagePath>www\bower_components\neon-animation\demo\reprojection\fullsize-page-with-card.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\reprojection\index.html">
+      <PackagePath>www\bower_components\neon-animation\demo\reprojection\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\reprojection\reprojected-pages.html">
+      <PackagePath>www\bower_components\neon-animation\demo\reprojection\reprojected-pages.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\tiles\circles-page.html">
+      <PackagePath>www\bower_components\neon-animation\demo\tiles\circles-page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\tiles\index.html">
+      <PackagePath>www\bower_components\neon-animation\demo\tiles\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\tiles\squares-page.html">
+      <PackagePath>www\bower_components\neon-animation\demo\tiles\squares-page.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\index.html">
+      <PackagePath>www\bower_components\neon-animation\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\neon-animatable-behavior.html">
+      <PackagePath>www\bower_components\neon-animation\neon-animatable-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\neon-animatable.html">
+      <PackagePath>www\bower_components\neon-animation\neon-animatable.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\neon-animated-pages.html">
+      <PackagePath>www\bower_components\neon-animation\neon-animated-pages.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\neon-animation-behavior.html">
+      <PackagePath>www\bower_components\neon-animation\neon-animation-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\neon-animation-runner-behavior.html">
+      <PackagePath>www\bower_components\neon-animation\neon-animation-runner-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\neon-animation.html">
+      <PackagePath>www\bower_components\neon-animation\neon-animation.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\neon-animations.html">
+      <PackagePath>www\bower_components\neon-animation\neon-animations.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\neon-shared-element-animatable-behavior.html">
+      <PackagePath>www\bower_components\neon-animation\neon-shared-element-animatable-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\neon-shared-element-animation-behavior.html">
+      <PackagePath>www\bower_components\neon-animation\neon-shared-element-animation-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\test\index.html">
+      <PackagePath>www\bower_components\neon-animation\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\test\neon-animated-pages.html">
+      <PackagePath>www\bower_components\neon-animation\test\neon-animated-pages.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\test\test-resizable-pages.html">
+      <PackagePath>www\bower_components\neon-animation\test\test-resizable-pages.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\web-animations.html">
+      <PackagePath>www\bower_components\neon-animation\web-animations.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-badge\demo\index.html">
+      <PackagePath>www\bower_components\paper-badge\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-badge\demo\test-button.html">
+      <PackagePath>www\bower_components\paper-badge\demo\test-button.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-badge\index.html">
+      <PackagePath>www\bower_components\paper-badge\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-badge\paper-badge.html">
+      <PackagePath>www\bower_components\paper-badge\paper-badge.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-badge\test\basic.html">
+      <PackagePath>www\bower_components\paper-badge\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-badge\test\index.html">
+      <PackagePath>www\bower_components\paper-badge\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-badge\test\test-button.html">
+      <PackagePath>www\bower_components\paper-badge\test\test-button.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\demo\index.html">
+      <PackagePath>www\bower_components\paper-behaviors\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\demo\paper-button.html">
+      <PackagePath>www\bower_components\paper-behaviors\demo\paper-button.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\demo\paper-radio-button.html">
+      <PackagePath>www\bower_components\paper-behaviors\demo\paper-radio-button.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\index.html">
+      <PackagePath>www\bower_components\paper-behaviors\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\paper-button-behavior.html">
+      <PackagePath>www\bower_components\paper-behaviors\paper-button-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\paper-checked-element-behavior.html">
+      <PackagePath>www\bower_components\paper-behaviors\paper-checked-element-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\paper-inky-focus-behavior.html">
+      <PackagePath>www\bower_components\paper-behaviors\paper-inky-focus-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\paper-ripple-behavior.html">
+      <PackagePath>www\bower_components\paper-behaviors\paper-ripple-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\test\index.html">
+      <PackagePath>www\bower_components\paper-behaviors\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\test\paper-button-behavior.html">
+      <PackagePath>www\bower_components\paper-behaviors\test\paper-button-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\test\paper-checked-element-behavior.html">
+      <PackagePath>www\bower_components\paper-behaviors\test\paper-checked-element-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\test\paper-radio-button-behavior.html">
+      <PackagePath>www\bower_components\paper-behaviors\test\paper-radio-button-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\test\paper-ripple-behavior.html">
+      <PackagePath>www\bower_components\paper-behaviors\test\paper-ripple-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\test\test-button.html">
+      <PackagePath>www\bower_components\paper-behaviors\test\test-button.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-behaviors\test\test-radio-button.html">
+      <PackagePath>www\bower_components\paper-behaviors\test\test-radio-button.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-button\demo\index.html">
+      <PackagePath>www\bower_components\paper-button\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-button\index.html">
+      <PackagePath>www\bower_components\paper-button\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-button\paper-button.html">
+      <PackagePath>www\bower_components\paper-button\paper-button.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-button\test\index.html">
+      <PackagePath>www\bower_components\paper-button\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-button\test\paper-button.html">
+      <PackagePath>www\bower_components\paper-button\test\paper-button.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-card\demo\index.html">
+      <PackagePath>www\bower_components\paper-card\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-card\index.html">
+      <PackagePath>www\bower_components\paper-card\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-card\paper-card.html">
+      <PackagePath>www\bower_components\paper-card\paper-card.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-card\test\basic.html">
+      <PackagePath>www\bower_components\paper-card\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-card\test\index.html">
+      <PackagePath>www\bower_components\paper-card\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-checkbox\demo\index.html">
+      <PackagePath>www\bower_components\paper-checkbox\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-checkbox\index.html">
+      <PackagePath>www\bower_components\paper-checkbox\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-checkbox\metadata.html">
+      <PackagePath>www\bower_components\paper-checkbox\metadata.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-checkbox\paper-checkbox.html">
+      <PackagePath>www\bower_components\paper-checkbox\paper-checkbox.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-checkbox\test\basic.html">
+      <PackagePath>www\bower_components\paper-checkbox\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-checkbox\test\index.html">
+      <PackagePath>www\bower_components\paper-checkbox\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog-behavior\demo\index.html">
+      <PackagePath>www\bower_components\paper-dialog-behavior\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog-behavior\demo\simple-dialog.html">
+      <PackagePath>www\bower_components\paper-dialog-behavior\demo\simple-dialog.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog-behavior\index.html">
+      <PackagePath>www\bower_components\paper-dialog-behavior\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog-behavior\paper-dialog-behavior.html">
+      <PackagePath>www\bower_components\paper-dialog-behavior\paper-dialog-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog-behavior\test\index.html">
+      <PackagePath>www\bower_components\paper-dialog-behavior\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog-behavior\test\paper-dialog-behavior.html">
+      <PackagePath>www\bower_components\paper-dialog-behavior\test\paper-dialog-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog-behavior\test\test-dialog.html">
+      <PackagePath>www\bower_components\paper-dialog-behavior\test\test-dialog.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog\demo\index.html">
+      <PackagePath>www\bower_components\paper-dialog\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog\index.html">
+      <PackagePath>www\bower_components\paper-dialog\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog\paper-dialog.html">
+      <PackagePath>www\bower_components\paper-dialog\paper-dialog.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog\test\index.html">
+      <PackagePath>www\bower_components\paper-dialog\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog\test\paper-dialog.html">
+      <PackagePath>www\bower_components\paper-dialog\test\paper-dialog.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-drawer-panel\demo\index.html">
+      <PackagePath>www\bower_components\paper-drawer-panel\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-drawer-panel\index.html">
+      <PackagePath>www\bower_components\paper-drawer-panel\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-drawer-panel\paper-drawer-panel.html">
+      <PackagePath>www\bower_components\paper-drawer-panel\paper-drawer-panel.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-drawer-panel\test\index.html">
+      <PackagePath>www\bower_components\paper-drawer-panel\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-drawer-panel\test\positioning.html">
+      <PackagePath>www\bower_components\paper-drawer-panel\test\positioning.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-drawer-panel\test\small-devices.html">
+      <PackagePath>www\bower_components\paper-drawer-panel\test\small-devices.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dropdown-menu\demo\index.html">
+      <PackagePath>www\bower_components\paper-dropdown-menu\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dropdown-menu\index.html">
+      <PackagePath>www\bower_components\paper-dropdown-menu\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dropdown-menu\paper-dropdown-menu.html">
+      <PackagePath>www\bower_components\paper-dropdown-menu\paper-dropdown-menu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dropdown-menu\test\index.html">
+      <PackagePath>www\bower_components\paper-dropdown-menu\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dropdown-menu\test\paper-dropdown-menu.html">
+      <PackagePath>www\bower_components\paper-dropdown-menu\test\paper-dropdown-menu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-fab\demo\index.html">
+      <PackagePath>www\bower_components\paper-fab\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-fab\index.html">
+      <PackagePath>www\bower_components\paper-fab\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-fab\paper-fab.html">
+      <PackagePath>www\bower_components\paper-fab\paper-fab.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-fab\test\a11y.html">
+      <PackagePath>www\bower_components\paper-fab\test\a11y.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-fab\test\basic.html">
+      <PackagePath>www\bower_components\paper-fab\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-fab\test\index.html">
+      <PackagePath>www\bower_components\paper-fab\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-header-panel\demo\index.html">
+      <PackagePath>www\bower_components\paper-header-panel\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-header-panel\index.html">
+      <PackagePath>www\bower_components\paper-header-panel\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-header-panel\paper-header-panel.html">
+      <PackagePath>www\bower_components\paper-header-panel\paper-header-panel.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-header-panel\test\basic.html">
+      <PackagePath>www\bower_components\paper-header-panel\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-header-panel\test\index.html">
+      <PackagePath>www\bower_components\paper-header-panel\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-icon-button\demo\index.html">
+      <PackagePath>www\bower_components\paper-icon-button\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-icon-button\index.html">
+      <PackagePath>www\bower_components\paper-icon-button\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-icon-button\paper-icon-button.html">
+      <PackagePath>www\bower_components\paper-icon-button\paper-icon-button.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-icon-button\test\a11y.html">
+      <PackagePath>www\bower_components\paper-icon-button\test\a11y.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-icon-button\test\basic.html">
+      <PackagePath>www\bower_components\paper-icon-button\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-icon-button\test\index.html">
+      <PackagePath>www\bower_components\paper-icon-button\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\all-imports.html">
+      <PackagePath>www\bower_components\paper-input\all-imports.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\demo\index.html">
+      <PackagePath>www\bower_components\paper-input\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\demo\ssn-input.html">
+      <PackagePath>www\bower_components\paper-input\demo\ssn-input.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\demo\ssn-validator.html">
+      <PackagePath>www\bower_components\paper-input\demo\ssn-validator.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\index.html">
+      <PackagePath>www\bower_components\paper-input\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\paper-input-addon-behavior.html">
+      <PackagePath>www\bower_components\paper-input\paper-input-addon-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\paper-input-behavior.html">
+      <PackagePath>www\bower_components\paper-input\paper-input-behavior.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\paper-input-char-counter.html">
+      <PackagePath>www\bower_components\paper-input\paper-input-char-counter.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\paper-input-container.html">
+      <PackagePath>www\bower_components\paper-input\paper-input-container.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\paper-input-error.html">
+      <PackagePath>www\bower_components\paper-input\paper-input-error.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\paper-input.html">
+      <PackagePath>www\bower_components\paper-input\paper-input.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\paper-textarea.html">
+      <PackagePath>www\bower_components\paper-input\paper-textarea.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\test\index.html">
+      <PackagePath>www\bower_components\paper-input\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\test\letters-only.html">
+      <PackagePath>www\bower_components\paper-input\test\letters-only.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\test\paper-input-char-counter.html">
+      <PackagePath>www\bower_components\paper-input\test\paper-input-char-counter.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\test\paper-input-container.html">
+      <PackagePath>www\bower_components\paper-input\test\paper-input-container.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\test\paper-input-error.html">
+      <PackagePath>www\bower_components\paper-input\test\paper-input-error.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\test\paper-input.html">
+      <PackagePath>www\bower_components\paper-input\test\paper-input.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\test\paper-textarea.html">
+      <PackagePath>www\bower_components\paper-input\test\paper-textarea.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-item\all-imports.html">
+      <PackagePath>www\bower_components\paper-item\all-imports.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-item\demo\index.html">
+      <PackagePath>www\bower_components\paper-item\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-item\index.html">
+      <PackagePath>www\bower_components\paper-item\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-item\paper-icon-item.html">
+      <PackagePath>www\bower_components\paper-item\paper-icon-item.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-item\paper-item-body.html">
+      <PackagePath>www\bower_components\paper-item\paper-item-body.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-item\paper-item-shared-styles.html">
+      <PackagePath>www\bower_components\paper-item\paper-item-shared-styles.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-item\paper-item.html">
+      <PackagePath>www\bower_components\paper-item\paper-item.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-item\test\index.html">
+      <PackagePath>www\bower_components\paper-item\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-item\test\paper-item.html">
+      <PackagePath>www\bower_components\paper-item\test\paper-item.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-material\demo\index.html">
+      <PackagePath>www\bower_components\paper-material\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-material\index.html">
+      <PackagePath>www\bower_components\paper-material\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-material\paper-material.html">
+      <PackagePath>www\bower_components\paper-material\paper-material.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-material\test\index.html">
+      <PackagePath>www\bower_components\paper-material\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-material\test\paper-material.html">
+      <PackagePath>www\bower_components\paper-material\test\paper-material.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu-button\demo\index.html">
+      <PackagePath>www\bower_components\paper-menu-button\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu-button\index.html">
+      <PackagePath>www\bower_components\paper-menu-button\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu-button\paper-menu-button-animations.html">
+      <PackagePath>www\bower_components\paper-menu-button\paper-menu-button-animations.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu-button\paper-menu-button.html">
+      <PackagePath>www\bower_components\paper-menu-button\paper-menu-button.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu-button\test\index.html">
+      <PackagePath>www\bower_components\paper-menu-button\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu-button\test\paper-menu-button.html">
+      <PackagePath>www\bower_components\paper-menu-button\test\paper-menu-button.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu\demo\index.html">
+      <PackagePath>www\bower_components\paper-menu\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu\index.html">
+      <PackagePath>www\bower_components\paper-menu\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu\paper-menu.html">
+      <PackagePath>www\bower_components\paper-menu\paper-menu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu\paper-submenu.html">
+      <PackagePath>www\bower_components\paper-menu\paper-submenu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu\test\index.html">
+      <PackagePath>www\bower_components\paper-menu\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu\test\paper-menu.html">
+      <PackagePath>www\bower_components\paper-menu\test\paper-menu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu\test\paper-submenu.html">
+      <PackagePath>www\bower_components\paper-menu\test\paper-submenu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-ripple\demo\index.html">
+      <PackagePath>www\bower_components\paper-ripple\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-ripple\index.html">
+      <PackagePath>www\bower_components\paper-ripple\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-ripple\paper-ripple.html">
+      <PackagePath>www\bower_components\paper-ripple\paper-ripple.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-ripple\test\index.html">
+      <PackagePath>www\bower_components\paper-ripple\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-ripple\test\paper-ripple.html">
+      <PackagePath>www\bower_components\paper-ripple\test\paper-ripple.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-spinner\demo\index.html">
+      <PackagePath>www\bower_components\paper-spinner\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-spinner\index.html">
+      <PackagePath>www\bower_components\paper-spinner\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-spinner\paper-spinner-styles.html">
+      <PackagePath>www\bower_components\paper-spinner\paper-spinner-styles.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-spinner\paper-spinner.html">
+      <PackagePath>www\bower_components\paper-spinner\paper-spinner.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-spinner\test\index.html">
+      <PackagePath>www\bower_components\paper-spinner\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-spinner\test\paper-spinner.html">
+      <PackagePath>www\bower_components\paper-spinner\test\paper-spinner.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\classes\global.html">
+      <PackagePath>www\bower_components\paper-styles\classes\global.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\classes\shadow-layout.html">
+      <PackagePath>www\bower_components\paper-styles\classes\shadow-layout.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\classes\shadow.html">
+      <PackagePath>www\bower_components\paper-styles\classes\shadow.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\classes\typography.html">
+      <PackagePath>www\bower_components\paper-styles\classes\typography.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\color.html">
+      <PackagePath>www\bower_components\paper-styles\color.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\default-theme.html">
+      <PackagePath>www\bower_components\paper-styles\default-theme.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\demo-pages.html">
+      <PackagePath>www\bower_components\paper-styles\demo-pages.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\demo\index.html">
+      <PackagePath>www\bower_components\paper-styles\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\index.html">
+      <PackagePath>www\bower_components\paper-styles\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\paper-styles-classes.html">
+      <PackagePath>www\bower_components\paper-styles\paper-styles-classes.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\paper-styles.html">
+      <PackagePath>www\bower_components\paper-styles\paper-styles.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\shadow.html">
+      <PackagePath>www\bower_components\paper-styles\shadow.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\typography.html">
+      <PackagePath>www\bower_components\paper-styles\typography.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\demo\index.html">
+      <PackagePath>www\bower_components\paper-tabs\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\demo\paper-tabs-demo-styles.html">
+      <PackagePath>www\bower_components\paper-tabs\demo\paper-tabs-demo-styles.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\demo\tabs-with-content-example.html">
+      <PackagePath>www\bower_components\paper-tabs\demo\tabs-with-content-example.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\index.html">
+      <PackagePath>www\bower_components\paper-tabs\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\paper-tab.html">
+      <PackagePath>www\bower_components\paper-tabs\paper-tab.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\paper-tabs-icons.html">
+      <PackagePath>www\bower_components\paper-tabs\paper-tabs-icons.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\paper-tabs.html">
+      <PackagePath>www\bower_components\paper-tabs\paper-tabs.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\test\attr-for-selected.html">
+      <PackagePath>www\bower_components\paper-tabs\test\attr-for-selected.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\test\basic.html">
+      <PackagePath>www\bower_components\paper-tabs\test\basic.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\test\index.html">
+      <PackagePath>www\bower_components\paper-tabs\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toast\demo\index.html">
+      <PackagePath>www\bower_components\paper-toast\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toast\index.html">
+      <PackagePath>www\bower_components\paper-toast\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toast\paper-toast.html">
+      <PackagePath>www\bower_components\paper-toast\paper-toast.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toolbar\demo\index.html">
+      <PackagePath>www\bower_components\paper-toolbar\demo\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toolbar\index.html">
+      <PackagePath>www\bower_components\paper-toolbar\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toolbar\paper-toolbar.html">
+      <PackagePath>www\bower_components\paper-toolbar\paper-toolbar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toolbar\test\index.html">
+      <PackagePath>www\bower_components\paper-toolbar\test\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toolbar\test\paper-toolbar.html">
+      <PackagePath>www\bower_components\paper-toolbar\test\paper-toolbar.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\polymer\polymer-micro.html">
+      <PackagePath>www\bower_components\polymer\polymer-micro.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\polymer\polymer-mini.html">
+      <PackagePath>www\bower_components\polymer\polymer-mini.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\polymer\polymer.html">
+      <PackagePath>www\bower_components\polymer\polymer.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\web-animations-js\web-animations.html">
+      <PackagePath>www\bower_components\web-animations-js\web-animations.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-autogrow-textarea\hero.svg">
+      <PackagePath>www\bower_components\iron-autogrow-textarea\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-collapse\hero.svg">
+      <PackagePath>www\bower_components\iron-collapse\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icons\hero.svg">
+      <PackagePath>www\bower_components\iron-icons\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-icon\hero.svg">
+      <PackagePath>www\bower_components\iron-icon\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-input\hero.svg">
+      <PackagePath>www\bower_components\iron-input\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-media-query\hero.svg">
+      <PackagePath>www\bower_components\iron-media-query\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-meta\hero.svg">
+      <PackagePath>www\bower_components\iron-meta\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\iron-pages\hero.svg">
+      <PackagePath>www\bower_components\iron-pages\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog-behavior\hero.svg">
+      <PackagePath>www\bower_components\paper-dialog-behavior\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog\hero.svg">
+      <PackagePath>www\bower_components\paper-dialog\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-drawer-panel\hero.svg">
+      <PackagePath>www\bower_components\paper-drawer-panel\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-header-panel\hero.svg">
+      <PackagePath>www\bower_components\paper-header-panel\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-input\hero.svg">
+      <PackagePath>www\bower_components\paper-input\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu-button\hero.svg">
+      <PackagePath>www\bower_components\paper-menu-button\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu\hero.svg">
+      <PackagePath>www\bower_components\paper-menu\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-ripple\hero.svg">
+      <PackagePath>www\bower_components\paper-ripple\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-spinner\hero.svg">
+      <PackagePath>www\bower_components\paper-spinner\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-tabs\hero.svg">
+      <PackagePath>www\bower_components\paper-tabs\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-toast\hero.svg">
+      <PackagePath>www\bower_components\paper-toast\hero.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\neon-animation\demo\shared.css">
+      <PackagePath>www\bower_components\neon-animation\demo\shared.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-dialog-behavior\paper-dialog-common.css">
+      <PackagePath>www\bower_components\paper-dialog-behavior\paper-dialog-common.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-header-panel\paper-header-panel.css">
+      <PackagePath>www\bower_components\paper-header-panel\paper-header-panel.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-menu\paper-menu-shared.css">
+      <PackagePath>www\bower_components\paper-menu\paper-menu-shared.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\paper-styles\demo.css">
+      <PackagePath>www\bower_components\paper-styles\demo.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\polymer\build.log">
+      <PackagePath>www\bower_components\polymer\build.log</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\build.log">
+      <PackagePath>www\bower_components\webcomponentsjs\build.log</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\polymer\LICENSE.txt">
+      <PackagePath>www\bower_components\polymer\LICENSE.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\web-animations-js\COPYING">
+      <PackagePath>www\bower_components\web-animations-js\COPYING</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\web-animations-js\web-animations-next-lite.min.js">
+      <PackagePath>www\bower_components\web-animations-js\web-animations-next-lite.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\web-animations-js\web-animations-next.min.js">
+      <PackagePath>www\bower_components\web-animations-js\web-animations-next.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\web-animations-js\web-animations.min.js">
+      <PackagePath>www\bower_components\web-animations-js\web-animations.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\CustomElements.js">
+      <PackagePath>www\bower_components\webcomponentsjs\CustomElements.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\CustomElements.min.js">
+      <PackagePath>www\bower_components\webcomponentsjs\CustomElements.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\HTMLImports.js">
+      <PackagePath>www\bower_components\webcomponentsjs\HTMLImports.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\HTMLImports.min.js">
+      <PackagePath>www\bower_components\webcomponentsjs\HTMLImports.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\MutationObserver.js">
+      <PackagePath>www\bower_components\webcomponentsjs\MutationObserver.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\MutationObserver.min.js">
+      <PackagePath>www\bower_components\webcomponentsjs\MutationObserver.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\ShadowDOM.js">
+      <PackagePath>www\bower_components\webcomponentsjs\ShadowDOM.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\ShadowDOM.min.js">
+      <PackagePath>www\bower_components\webcomponentsjs\ShadowDOM.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\webcomponents-lite.js">
+      <PackagePath>www\bower_components\webcomponentsjs\webcomponents-lite.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\webcomponents-lite.min.js">
+      <PackagePath>www\bower_components\webcomponentsjs\webcomponents-lite.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\webcomponents.js">
+      <PackagePath>www\bower_components\webcomponentsjs\webcomponents.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\webcomponentsjs\webcomponents.min.js">
+      <PackagePath>www\bower_components\webcomponentsjs\webcomponents.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\web-animations-js\web-animations-next-lite.min.js.map">
+      <PackagePath>www\bower_components\web-animations-js\web-animations-next-lite.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\web-animations-js\web-animations-next.min.js.map">
+      <PackagePath>www\bower_components\web-animations-js\web-animations-next.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\web-animations-js\web-animations.min.js.map">
+      <PackagePath>www\bower_components\web-animations-js\web-animations.min.js.map</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\www\bower_components\web-animations-js\web-animations.min.js.gz">
+      <PackagePath>www\bower_components\web-animations-js\web-animations.min.js.gz</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\Vignesh\Documents\Visual Studio 2015\Projects\OnlineService\OnlineService\platforms\windows\build\windows\debug\anycpu\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
